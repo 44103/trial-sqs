@@ -23,5 +23,4 @@ locals {
     var.envs
   )
   func_dir = "${path.module}/../../functions/lambda"
-  dist_dir = "${local.func_dir}/bootstrap"
 }

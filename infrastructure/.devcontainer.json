@@ -5,5 +5,14 @@
   ],
   "service": "terraform",
   "shutdownAction": "none",
-  "workspaceFolder": "/workspace/infrastructure"
+  "workspaceFolder": "/workspace/infrastructure",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "shardulm94.trailing-spaces",
+        "sleistner.vscode-fileutils"
+      ]
+    }
+  }
 }
