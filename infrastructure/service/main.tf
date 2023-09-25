@@ -16,3 +16,9 @@ module "lambda" {
     }
   ]
 }
+
+module "sqs" {
+  source  = "../modules/sqs"
+  commons = local.commons
+  name    = "message"
+}
