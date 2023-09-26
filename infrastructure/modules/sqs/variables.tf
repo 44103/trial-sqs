@@ -2,6 +2,7 @@ variable "commons" {}
 variable "name" {
   description = "resource name"
 }
+variable "lambda" {}
 
 locals {
   name = join("_", [

@@ -21,4 +21,5 @@ module "sqs" {
   source  = "../modules/sqs"
   commons = local.commons
   name    = "message"
+  lambda  = module.lambda
 }
