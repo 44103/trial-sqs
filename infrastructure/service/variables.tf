@@ -7,7 +7,7 @@ variable "project" {
 }
 variable "service" {
   description = "service name"
-  default     = "graphql"
+  default     = "queue"
 }
 variable "environment" {
   description = "environment"
